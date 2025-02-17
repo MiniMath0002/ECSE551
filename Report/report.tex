@@ -78,12 +78,13 @@
 \maketitle
 
 \begin{abstract}
-  This project involves implementing a logistic regression linear classifier from scratch.  This report presents the results of the logistic regression classifier model when performed on two datasets, a Chronic Kidney Disease (CKD) dataset and a battery dataset.  Multiple logistic regression models were compared with training/validation data.  For the CKD dataset, a third-degree model was chosen and resulted in an error of 0.1250. For the battery dataset, a linear model where some features are removed was chosen and resulted in an error of 0.0508. 
+  This project involves implementing a logistic regression linear classifier from scratch.  This report presents the results of the logistic regression classifier model when performed on two datasets, a Chronic Kidney Disease (CKD) dataset and a battery dataset.  Multiple logistic regression models were compared with training/validation data.  For the CKD dataset, a third-degree model was chosen and resulted in an error of 0.1250 using test data. For the battery dataset, a linear model where some features are removed was chosen and resulted in an error of 0.0508 using test data. 
 \end{abstract}
 
 \section{Introduction}
 
-Machine learning is revolutionizing industries by providing powerful solutions to real-world issues. As its applications continue to grow, mastering this skill is becoming essential for professionals across various fields. The project focuses on developing a two-class classification model using a logistic regression classifier to address two key challenges: detecting chronic kidney disease (CKD) in patients and identifying defective batteries in a manufacturing plant. Five different models were compared for each dataset.  Cross validation was performed on a linear model that included all normalized features, a linear model that included all standardized features, a linear model with some features removed, a quadratic model where some features have a quadratic term, a cubic model where some features have a cubic term added.  After cross-validation, the cubic CKD model and the feature removed battery model had the lowest error.  After testing these models on the separated testing data, the cubic CKD model resulted in an error of 0.1250 and the feature removed battery model resulted in an error of 0.0508. 
+Machine learning is revolutionizing industries by providing powerful solutions to real-world issues. As its applications continue to grow, mastering this skill is becoming essential for professionals across various fields. The project focuses on developing a two-class classification model using a logistic regression classifier to address two key challenges: detecting chronic kidney disease (CKD) in patients and identifying defective batteries in a manufacturing plant. 
+The datasets were split into a training/validation set consisting of approximately 90 \% of the data and a testing set that consisted of approximately 10 \% of the data.  Five different models were compared for each dataset.  Cross validation was performed on a linear model that included all normalized features, a linear model that included all standardized features, a linear model with some features removed, a quadratic model where some features have a quadratic term, a cubic model where some features have a cubic term added.  After cross-validation, the cubic CKD model and the feature removed battery model had the lowest error.  After testing these models on the separated testing data, the cubic CKD model resulted in an error of 0.1250 and the feature removed battery model resulted in an error of 0.0508. 
 
 \section{Datasets}
 
@@ -111,7 +112,6 @@ Additionally, due to the high condition number of both datasets, which is when t
   \end{table}
 
 \section{Results}
-<<<<<<< HEAD
 \subsection{Hyperparameter Analysis}
 
 The optimization of our models was achieved by testing different Gradient descent variations as well as fine tuning each model’s hyperparameters.  
@@ -132,18 +132,6 @@ Following this, the step size for the decaying gradient descent for each model w
 \\
 \\
 By analyzing the performance of each model, it was determined that they all worked best with a starting step size of 0.03 and a tolerance of $10^{-6}$. As shown in figures 1 to 10 in the Appendix, the 1-accuracy value remained relatively constant across a wide range of step sizes. To distinguish the best-performing step size, convergence speed became the key criterion.  Indeed, when using larger step sizes, the convergence speed of the logistic regression was slower, and during the first iterations, the values tended to oscillate much less compared to smaller step sizes. Moreover, removing or altering feature values do not seem to affect performance speed at all. 
-=======
-\subsection{Hyper Parameter Analysis}
-The optimization of our models was achieved by testing different Gradient descent variations as well as fine tunning each model’s hyperparameters.
-For starters, two variations of gradient descent were implemented on the normalized CDK and battery datasets, using all available features. Since most of the models that we developed were trained on similar datasets (variations on the normalized dataset with all features), it seemed reasonable to assume that the best-performing gradient descent variation on this dataset would also perform well on the others.
-\\
-\\
-These two variations are:
-\begin{itemize}
-  \item Gradient Descent with a Decaying Learning Rate
-  \item Momentum Based Gradient Descent 
-\end{itemize}
->>>>>>> 537dcf2c25487acc98b5e76bfb998a8356c882ad
 
 Although both models performed similarly in terms of accuracy, the gradient descent with a decaying learning rate converged with a much lower tolerance than momentum-based gradient descent. This suggests that it may be more precise.
 \\

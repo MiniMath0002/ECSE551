@@ -129,6 +129,9 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./report.aux
+INPUT ./report.aux
+INPUT report.aux
 OUTPUT report.aux
 OUTPUT report.out
 OUTPUT report.pdf

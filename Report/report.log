@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  16 FEB 2025 22:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  16 FEB 2025 22:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,8 +317,7 @@ LaTeX Info: Redefining \] on input line 2954.
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box56
-)
-No file report.aux.
+) (./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -339,6 +338,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -467,38 +467,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
-c:/Users/issyl/Documents/McGill_sem_10/ecse551/ECSE551/Report/report.tex:81: LaTeX Error: Unicode character   (U+202F)
+c:/Users/issyl/Documents/McGill_sem_10/ecse551/ECSE551/Report/report.tex:95: LaTeX Error: Unicode character   (U+202F)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 ...ession linear classifier from scratch.  
-                                                  This report presents the r...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/issyl/Documents/McGill_sem_10/ecse551/ECSE551/Report/report.tex:94: LaTeX Error: Unicode character   (U+202F)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.94 ...uld help identify defective batteries.  
+l.95 ...uld help identify defective batteries.  
                                                   There is a target variable...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--98
+Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--98
+Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
@@ -519,17 +506,32 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 12
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 128--136
+Underfull \hbox (badness 10000) in paragraph at lines 128--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--136
+Underfull \hbox (badness 10000) in paragraph at lines 128--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--142
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--145
 
  []
 
@@ -537,228 +539,207 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--142
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.142 \begin{itemize}
-                     ]
-Underfull \hbox (badness 10000) in paragraph at lines 148--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--157
-
- []
-
-[3]
+l.145 \subsection
+                 {Linear Model With All Features}]
 
 Package amsmath Warning: Bracket group [-1.0179, 2.4871, -0.0185, 0.1225, 0.0509, 0.1222, -0.2118, -0.2312, -0.3058, -0.1395, \\ 0.1897, 0.4275, 0.1648, -0.1032, -0.2050, 0.2870, 0.2827, 0.0557, 0.1185, 0.1652, \\ -0.0089, -0.3447, -0.2880, 0.0708, 0.0002, -0.0845, -0.0942, 0.1653, -0.7693] at formula start!
 (amsmath)                It could be a misspelled positional argument.
 (amsmath)                If it belongs to the formula add a \relax in
-(amsmath)                front to hide it on input line 179.
+(amsmath)                front to hide it on input line 167.
 
+[3]
 
 Package amsmath Warning: Bracket group [5.5288, 5.4114, -0.0814, 0.0036, 0.0838, -0.3571, -0.9275, -0.8126, -0.2352, -0.0839, \\ -0.1379, -0.2578, -0.0698, -0.5288, -0.3349, -0.5354, -0.2542, -0.2727, -0.0385, -0.1533, \\ -0.1472, 0.0454, 0.1609, 0.1094, 0.0360, -0.7155, 0.0190, -0.6298, -0.4767, -0.3815, \\ -0.3547, -0.3608, -1.6986] at formula start!
 (amsmath)                It could be a misspelled positional argument.
 (amsmath)                If it belongs to the formula add a \relax in
-(amsmath)                front to hide it on input line 189.
+(amsmath)                front to hide it on input line 177.
 
 
-Overfull \hbox (0.84915pt too wide) detected at line 191
+Overfull \hbox (0.84915pt too wide) detected at line 179
 [][]
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--242
+Underfull \hbox (badness 10000) in paragraph at lines 226--230
 
  []
 
-[4]
-<CKDmodel1.png, id=43, 416.2752pt x 307.1475pt>
-File: CKDmodel1.png Graphic file (type png)
-<use CKDmodel1.png>
-Package pdftex.def Info: CKDmodel1.png  used on input line 251.
-(pdftex.def)             Requested size: 317.9892pt x 234.63899pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5
+[4
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.255 
+l.230 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.255 
+l.230 
       ]
-<CKDmodel2.png, id=52, 416.2752pt x 306.4248pt>
+<CKDmodel1.png, id=44, 416.2752pt x 307.1475pt>
+File: CKDmodel1.png Graphic file (type png)
+<use CKDmodel1.png>
+Package pdftex.def Info: CKDmodel1.png  used on input line 239.
+(pdftex.def)             Requested size: 317.9892pt x 234.63899pt.
+<CKDmodel2.png, id=46, 416.2752pt x 306.4248pt>
 File: CKDmodel2.png Graphic file (type png)
 <use CKDmodel2.png>
-Package pdftex.def Info: CKDmodel2.png  used on input line 258.
+Package pdftex.def Info: CKDmodel2.png  used on input line 246.
 (pdftex.def)             Requested size: 317.9892pt x 234.0869pt.
-<CKDmodel3.png, id=53, 409.7709pt x 307.8702pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.250 
+       <./CKDmodel1.png>]
+<CKDmodel3.png, id=55, 409.7709pt x 307.8702pt>
 File: CKDmodel3.png Graphic file (type png)
 <use CKDmodel3.png>
-Package pdftex.def Info: CKDmodel3.png  used on input line 265.
+Package pdftex.def Info: CKDmodel3.png  used on input line 253.
 (pdftex.def)             Requested size: 317.9892pt x 238.92107pt.
+<CKDmodel4.png, id=56, 409.7709pt x 307.1475pt>
+File: CKDmodel4.png Graphic file (type png)
+<use CKDmodel4.png>
+Package pdftex.def Info: CKDmodel4.png  used on input line 260.
+(pdftex.def)             Requested size: 317.9892pt x 238.36023pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.269 
-      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.269 
-       <./CKDmodel1.png> <./CKDmodel2.png>]
-<CKDmodel4.png, id=63, 409.7709pt x 307.1475pt>
-File: CKDmodel4.png Graphic file (type png)
-<use CKDmodel4.png>
-Package pdftex.def Info: CKDmodel4.png  used on input line 272.
-(pdftex.def)             Requested size: 317.9892pt x 238.36023pt.
-<CKDmodel5.png, id=64, 409.7709pt x 307.8702pt>
+l.264 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.264 
+       <./CKDmodel2.png> <./CKDmodel3.png>]
+<CKDmodel5.png, id=65, 409.7709pt x 307.8702pt>
 File: CKDmodel5.png Graphic file (type png)
 <use CKDmodel5.png>
-Package pdftex.def Info: CKDmodel5.png  used on input line 279.
+Package pdftex.def Info: CKDmodel5.png  used on input line 267.
 (pdftex.def)             Requested size: 317.9892pt x 238.92107pt.
+<Batmodel1.png, id=66, 414.8298pt x 307.8702pt>
+File: Batmodel1.png Graphic file (type png)
+<use Batmodel1.png>
+Package pdftex.def Info: Batmodel1.png  used on input line 274.
+(pdftex.def)             Requested size: 317.9892pt x 236.00378pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.283 
-      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.283 
-       <./CKDmodel3.png> <./CKDmodel4.png>]
-<Batmodel1.png, id=74, 414.8298pt x 307.8702pt>
-File: Batmodel1.png Graphic file (type png)
-<use Batmodel1.png>
-Package pdftex.def Info: Batmodel1.png  used on input line 286.
-(pdftex.def)             Requested size: 317.9892pt x 236.00378pt.
-<Batmodel2.png, id=75, 416.2752pt x 308.5929pt>
+l.278 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.278 
+       <./CKDmodel4.png> <./CKDmodel5.png>]
+<Batmodel2.png, id=76, 416.2752pt x 308.5929pt>
 File: Batmodel2.png Graphic file (type png)
 <use Batmodel2.png>
-Package pdftex.def Info: Batmodel2.png  used on input line 293.
+Package pdftex.def Info: Batmodel2.png  used on input line 281.
 (pdftex.def)             Requested size: 317.9892pt x 235.74318pt.
+<Batmodel3.png, id=77, 409.7709pt x 308.5929pt>
+File: Batmodel3.png Graphic file (type png)
+<use Batmodel3.png>
+Package pdftex.def Info: Batmodel3.png  used on input line 288.
+(pdftex.def)             Requested size: 317.9892pt x 239.48192pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.297 
-      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.297 
-       <./CKDmodel5.png> <./Batmodel1.png>]
-<Batmodel3.png, id=84, 409.7709pt x 308.5929pt>
-File: Batmodel3.png Graphic file (type png)
-<use Batmodel3.png>
-Package pdftex.def Info: Batmodel3.png  used on input line 300.
-(pdftex.def)             Requested size: 317.9892pt x 239.48192pt.
-<Batmodel4.png, id=85, 409.7709pt x 307.8702pt>
+l.292 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.292 
+       <./Batmodel1.png> <./Batmodel2.png>]
+<Batmodel4.png, id=86, 409.7709pt x 307.8702pt>
 File: Batmodel4.png Graphic file (type png)
 <use Batmodel4.png>
-Package pdftex.def Info: Batmodel4.png  used on input line 307.
+Package pdftex.def Info: Batmodel4.png  used on input line 295.
 (pdftex.def)             Requested size: 317.9892pt x 238.92107pt.
+<Batmodel5.png, id=87, 409.7709pt x 307.1475pt>
+File: Batmodel5.png Graphic file (type png)
+<use Batmodel5.png>
+Package pdftex.def Info: Batmodel5.png  used on input line 302.
+(pdftex.def)             Requested size: 317.9892pt x 238.36023pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.311 
-      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.311 
-       <./Batmodel2.png> <./Batmodel3.png>]
-<Batmodel5.png, id=94, 409.7709pt x 307.1475pt>
-File: Batmodel5.png Graphic file (type png)
-<use Batmodel5.png>
-Package pdftex.def Info: Batmodel5.png  used on input line 314.
-(pdftex.def)             Requested size: 317.9892pt x 238.36023pt.
-<quad_ckd.pdf, id=95, 722.7pt x 433.62pt>
+l.306 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.306 
+       <./Batmodel3.png> <./Batmodel4.png>]
+<quad_ckd.pdf, id=96, 722.7pt x 433.62pt>
 File: quad_ckd.pdf Graphic file (type pdf)
 <use quad_ckd.pdf>
-Package pdftex.def Info: quad_ckd.pdf  used on input line 321.
+Package pdftex.def Info: quad_ckd.pdf  used on input line 309.
+(pdftex.def)             Requested size: 317.9892pt x 190.79338pt.
+<quad_battery.pdf, id=97, 722.7pt x 433.62pt>
+File: quad_battery.pdf Graphic file (type pdf)
+<use quad_battery.pdf>
+Package pdftex.def Info: quad_battery.pdf  used on input line 316.
 (pdftex.def)             Requested size: 317.9892pt x 190.79338pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.325 
-      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.325 
-       <./Batmodel4.png> <./Batmodel5.png>]
-<quad_battery.pdf, id=104, 722.7pt x 433.62pt>
-File: quad_battery.pdf Graphic file (type pdf)
-<use quad_battery.pdf>
-Package pdftex.def Info: quad_battery.pdf  used on input line 328.
-(pdftex.def)             Requested size: 317.9892pt x 190.79338pt.
-<cubic_ckd.pdf, id=105, 722.7pt x 433.62pt>
+l.320 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.320 
+       <./Batmodel5.png> <./quad_ckd.pdf>]
+<cubic_ckd.pdf, id=146, 722.7pt x 433.62pt>
 File: cubic_ckd.pdf Graphic file (type pdf)
 <use cubic_ckd.pdf>
-Package pdftex.def Info: cubic_ckd.pdf  used on input line 335.
+Package pdftex.def Info: cubic_ckd.pdf  used on input line 323.
+(pdftex.def)             Requested size: 317.9892pt x 190.79338pt.
+<cubic_battery.pdf, id=147, 722.7pt x 433.62pt>
+File: cubic_battery.pdf Graphic file (type pdf)
+<use cubic_battery.pdf>
+Package pdftex.def Info: cubic_battery.pdf  used on input line 330.
 (pdftex.def)             Requested size: 317.9892pt x 190.79338pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.339 
-      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.339 
-       <./quad_ckd.pdf> <./quad_battery.pdf>]
-<cubic_battery.pdf, id=194, 722.7pt x 433.62pt>
-File: cubic_battery.pdf Graphic file (type pdf)
-<use cubic_battery.pdf>
-Package pdftex.def Info: cubic_battery.pdf  used on input line 342.
-(pdftex.def)             Requested size: 317.9892pt x 190.79338pt.
-
-c:/Users/issyl/Documents/McGill_sem_10/ecse551/ECSE551/Report/report.tex:353: Misplaced alignment tab character &.
-l.353 ...hine Learning for Engineers, Electrical &
+l.334 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.334 
+       <./quad_battery.pdf> <./cubic_ckd.pdf>]
+c:/Users/issyl/Documents/McGill_sem_10/ecse551/ECSE551/Report/report.tex:341: Misplaced alignment tab character &.
+l.341 ...hine Learning for Engineers, Electrical &
                                                    Computer Engr, McGill Uni...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -768,16 +749,11 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 [12
-pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.359 \end{document}
-                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.359 \end{document}
-                     <./cubic_ckd.pdf> <./cubic_battery.pdf>] (./report.aux)
+l.347 \end{document}
+                     <./cubic_battery.pdf>] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -793,21 +769,21 @@ Package rerunfilecheck Warning: File `report.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `report.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  BE6A40544F82187F9D1CD0A06C212A2E;1839.
+(rerunfilecheck)             After:  A92720FC715300BD74160D2B36FC1E44;1655.
  ) 
 Here is how much of TeX's memory you used:
- 12494 strings out of 474050
- 196329 string characters out of 5746299
+ 12502 strings out of 474050
+ 196411 string characters out of 5746299
  1941754 words of memory out of 5000000
- 34566 multiletter control sequences out of 15000+600000
- 582915 words of font info for 146 fonts, out of 8000000 for 9000
+ 34567 multiletter control sequences out of 15000+600000
+ 583175 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,1501b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,1501b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (12 pages, 498822 bytes).
+Output written on report.pdf (12 pages, 498485 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
  28231 words of extra memory for PDF output out of 29859 (max. 10000000)
 
