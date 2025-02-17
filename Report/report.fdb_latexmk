@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1739763864.27716 "c:/Users/issyl/Documents/McGill_sem_10/ecse551/ECSE551/Report/report.tex" "report.pdf" "report" 1739763866.26659 2
+["pdflatex"] 1739763962.2987 "c:/Users/issyl/Documents/McGill_sem_10/ecse551/ECSE551/Report/report.tex" "report.pdf" "report" 1739763964.15787 2
   "Batmodel1.png" 1739762132 30563 bff0a196e83e1f2008ca68079647c762 ""
   "Batmodel2.png" 1739762132 49982 bf6de4468f9d458d07415ed1be2c7fbf ""
   "Batmodel3.png" 1739762132 32152 475d520fa3a13dcb103a735e052c1a64 ""
@@ -10,7 +10,7 @@
   "CKDmodel3.png" 1739762141 41757 d8143621f3963a29d45b9f8e21ddef38 ""
   "CKDmodel4.png" 1739762141 42373 c56bac43d27c6a9acf46e6fdb5a1b979 ""
   "CKDmodel5.png" 1739762141 42894 58cff68495ffe85043c6e80483f044dc ""
-  "c:/Users/issyl/Documents/McGill_sem_10/ecse551/ECSE551/Report/report.tex" 1739763862 21052 a7de57d187c16833220e0854256b9c7e ""
+  "c:/Users/issyl/Documents/McGill_sem_10/ecse551/ECSE551/Report/report.tex" 1739763958 23054 dd3899a5e63c213c2c1e556bf1460922 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1714593914 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1714594478 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1714602720 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -113,9 +113,9 @@
   "neurips_2020.sty" 1739655268 11677 84f8c8214af7ead5a45a9cacfede3949 ""
   "quad_battery.pdf" 1739749564 14528 4a675a8467c7dbe129ec966f9dd98631 ""
   "quad_ckd.pdf" 1739749543 14486 a61d3240ca9e3e6791c975363739ffdc ""
-  "report.aux" 1739763865 6012 3987be457692ac4f7f4edda7281dea13 "pdflatex"
-  "report.out" 1739763865 1655 a92720fc715300bd74160d2b36fc1e44 "pdflatex"
-  "report.tex" 1739763862 21052 a7de57d187c16833220e0854256b9c7e ""
+  "report.aux" 1739763963 6147 2dd0d071cf31c1ec3f89b809fd9d58f1 "pdflatex"
+  "report.out" 1739763963 1839 be6a40544f82187f9d1cd0a06c212a2e "pdflatex"
+  "report.tex" 1739763958 23054 dd3899a5e63c213c2c1e556bf1460922 ""
   (generated)
   "report.aux"
   "report.log"

@@ -111,6 +111,7 @@ Additionally, due to the high condition number of both datasets, which is when t
   \end{table}
 
 \section{Results}
+<<<<<<< HEAD
 \subsection{Hyperparameter Analysis}
 
 The optimization of our models was achieved by testing different Gradient descent variations as well as fine tuning each model’s hyperparameters.  
@@ -131,7 +132,28 @@ Following this, the step size for the decaying gradient descent for each model w
 \\
 \\
 By analyzing the performance of each model, it was determined that they all worked best with a starting step size of 0.03 and a tolerance of $10^{-6}$. As shown in figures 1 to 10 in the Appendix, the 1-accuracy value remained relatively constant across a wide range of step sizes. To distinguish the best-performing step size, convergence speed became the key criterion.  Indeed, when using larger step sizes, the convergence speed of the logistic regression was slower, and during the first iterations, the values tended to oscillate much less compared to smaller step sizes. Moreover, removing or altering feature values do not seem to affect performance speed at all. 
+=======
+\subsection{Hyper Parameter Analysis}
+The optimization of our models was achieved by testing different Gradient descent variations as well as fine tunning each model’s hyperparameters.
+For starters, two variations of gradient descent were implemented on the normalized CDK and battery datasets, using all available features. Since most of the models that we developed were trained on similar datasets (variations on the normalized dataset with all features), it seemed reasonable to assume that the best-performing gradient descent variation on this dataset would also perform well on the others.
+\\
+\\
+These two variations are:
+\begin{itemize}
+  \item Gradient Descent with a Decaying Learning Rate
+  \item Momentum Based Gradient Descent 
+\end{itemize}
+>>>>>>> 537dcf2c25487acc98b5e76bfb998a8356c882ad
 
+Although both models performed similarly in terms of accuracy, the gradient descent with a decaying learning rate converged with a much lower tolerance than momentum-based gradient descent. This suggests that it may be more precise.
+\\
+\\
+Following this, the step size for the decaying gradient descent for each model was fine-tuned by iterating through the following range of values [0.1, 0.011] and plotting its accuracy against its speed. Since our gradient descent method’s learning diminishes after each iteration, starting with larger step size values such as 0.1 was a better approach.
+\\
+\\
+By analyzing the performance of each model, it was determined that they all worked best with a starting step size of 0.03 and a tolerance of \( 10^{-6} \). As shown in the figures below, the \( 1 \)-accuracy value remained relatively constant across a wide range of step sizes. To distinguish the best-performing step size, convergence speed became the key criterion. Indeed, when using larger step sizes, the convergence speed was slower, and during the first iterations, the values tended to oscillate much less compared to smaller step sizes.
+\\
+\\
 \subsection{Linear Model With All Features}
 
 The first model that was implemented was a linear model that included data from all the features.  From the hyperparameter analysis, it was concluded that this model should be implemented with gradient descent with a step size of 0.03, a tolerance of $10^{-6}$, and an initial guess of 1 for each of the weights.  Through a 10-fold cross validation, the linear model using normalized data was compared to the linear model using standardized data.  It can be seen in tables 2 and 3 that the CKD linear model using normalized data performed better than with standardized data and the battery linear model using normalized data performed very similar compared to with standardized data.  Therefore, normalized data was used for all preceding models that were cross validated. 
